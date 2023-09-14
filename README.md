@@ -107,7 +107,7 @@ dados que possuem propriedades e valores, que definem suas características, dev
 
 Desestruturação de um objeto(manipulação de objeto)
 
-### **Estrutura condicional - decisão repetição/iteração**
+# **Estrutura condicional - decisão repetição/iteração**
 
 
 ## Decisão
@@ -157,5 +157,10 @@ switch(expressão){
 
 - for/in
     for([indece] in [objeto ou array]){
+        declaração
+    }
+
+- For/of
+    for([indice] of [array]){
         declaração
     }

@@ -80,19 +80,29 @@ switch(placar){
 
 //for
 
-let array = ["valor1","valor2", "valor3", "valor4"];
+let array = ["valor1", "valor2", "valor3", "valor4"];
 let object = {propriedade1: "valor1", propriedade2: "valor2", propriedade3: "valor3", propriedade4: "valor4"};
 
 for(let indice = 0; indice < array.length; indice++){
-    console.log(indice)
+    console.log(indice);
 }
 
 
 //for/in
 for(let i in array){
-    console.log(i)
+    console.log(i);
 }
 //não precisa declarar a variável
 for(i in object){
-    console.log(i)
+    console.log(i);
+}
+
+//for/of 
+for(i of array){
+    console.log(i);
+}
+
+//passando por um , tem que passar o objeto pegando a propriedade, mas geralmente não se usa pois ele imprime os valores separadamente
+for(i of object.propriedade1){
+    console.log(i);
 }
