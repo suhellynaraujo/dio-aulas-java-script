@@ -50,10 +50,10 @@ if (jogador3 != -1) {
     }
 }
 
-var jogador5 = 3;
-var jogador6 = 0;
+var jogador5 = 5;
+var jogador6 = 2;
 // ternário
-jogador5 != -1 && jogador6 != -1 ? console.log("Os dois jogadores são válidos") : console.log("Jogadores Inválidos!")
+jogador5 != -1 && jogador6 != -1 ? console.log("Os jogadores são válidos") : console.log("Jogadores Inválidos!")
 
 //if para uma condição
 if (jogador5 > 0) {
@@ -66,3 +66,14 @@ if (jogador5 > 0) {
     console.log("Ninguém marcou ponto!")
 }
 
+//switch/case
+switch(placar){
+    case placar = jogador5 > jogador6:
+        console.log("jogador 5 ganhou");
+        break;
+    case placar = jogador6 > jogador5:
+        console.log("jogador 6 ganhou");
+        break;
+    default:
+        console.log("Ninguém ganhou!")
+}

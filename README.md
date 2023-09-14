@@ -113,7 +113,7 @@ Desestruturação de um objeto(manipulação de objeto)
 Decisão
 
 - If(){
-    
+
 }
 
 - if(){
@@ -134,3 +134,17 @@ Decisão
 
 - If ternário
 [condição] ? [instrução] : [instrução2]
+
+- Switch / case
+
+switch(expressão){
+    case 1:
+        {instrução};
+        break;
+    case 2:
+        {instrução};
+        breack;
+    default:
+        {instrução};
+}
+
