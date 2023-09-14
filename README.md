@@ -211,3 +211,84 @@ var {string, boolean, objectInterno} = object;
 console.log(string, boolean , objectInterno);
 ```
 
+### **Estrutura condicional - decisão repetição/iteração**
+
+
+Decisão
+
+- If()
+
+```jsx
+var jogador1 = -1;
+var jogador2 = 0;
+var placar;
+
+//if para uma condição
+if (jogador1 > 0) {
+    console.log("Jogador 1 marocu ponto!")
+    // else if para mais condições
+} else if (jogador2 > 0) {
+    console.log("Jogador 2 marcou ponto!")
+    // caso não haja condição
+} else {
+    console.log("Ninguém marcou ponto!")
+}
+
+//usando verificação
+
+//if para uma condição
+if (jogador1 > 0 && jogador2 == 0) {
+    console.log("Jogador 1 marocu ponto!")
+    placar = jogador1 > jogador2;
+    console.log(jogador1)
+    // else if para mais condições
+} else if (jogador2 > 0 && jogador1 == 0) {
+    console.log("Jogador 2 marcou ponto!")
+    placar = jogador2 > jogador1;
+    console.log(jogador2)
+    // caso não haja condição
+} else {
+    console.log("Ninguém marcou ponto!")
+}
+```
+
+```jsx
+var jogador3 = 2;
+var jogador4 = 0;
+
+// condição aninhada ou ninho de ifs
+// executa ou não a condição
+if (jogador3 != -1) {
+    //if para uma condição
+    if (jogador3 > 0) {
+        console.log("Jogador 3 marocu ponto!")
+        // else if para mais condições
+    } else if (jogador4 > 0) {
+        console.log("Jogador 4 marcou ponto!")
+        // caso não haja condição
+    } else {
+        console.log("Ninguém marcou ponto!")
+    }
+}
+```
+
+- If ternário
+
+[condição] ? [instrução] : [instrução2]
+
+```jsx
+var jogador5 = -1;
+var jogador6 = 0;
+// ternário
+jogador5 != -1 && jogador6 != -1 ? console.log("Os dois jogadores são válidos") : console.log("Jogadores Inválidos!")
+//if para uma condição
+if (jogador5 > 0) {
+    console.log("Jogador 5 marocu ponto!")
+    // else if para mais condições
+} else if (jogador6 > 0) {
+    console.log("Jogador 6 marcou ponto!")
+    // caso não haja condição
+} else {
+    console.log("Ninguém marcou ponto!")
+}
+```
