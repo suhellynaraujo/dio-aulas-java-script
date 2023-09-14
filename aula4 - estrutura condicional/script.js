@@ -106,3 +106,10 @@ for(i of array){
 for(i of object.propriedade1){
     console.log(i);
 }
+
+//while
+var a = 0;
+while(a < 10){
+    a ++;
+    console.log(a);
+}

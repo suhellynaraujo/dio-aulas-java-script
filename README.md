@@ -164,3 +164,9 @@ switch(expressão){
     for([indice] of [array]){
         declaração
     }
+
+- While
+    while([expressao]){
+        incremento/decremento;
+          declaração
+    }
