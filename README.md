@@ -152,21 +152,27 @@ switch(expressão){
 
 - for
     for([expressaoInicial]; [condição]; [incremento/decremento]){
-        declaração
+        declaração;
 }
 
 - for/in
     for([indece] in [objeto ou array]){
-        declaração
+        declaração;
     }
 
 - For/of
     for([indice] of [array]){
-        declaração
+        declaração;
     }
 
 - While
     while([expressao]){
         incremento/decremento;
-          declaração
+          declaração;
     }
+
+-  do/While
+    do{
+        incremento/decremento;
+          declaração;
+    }while([expressao]);

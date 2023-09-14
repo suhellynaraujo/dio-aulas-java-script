@@ -113,3 +113,10 @@ while(a < 10){
     a ++;
     console.log(a);
 }
+
+//do/While
+var b = 0;
+do{
+    b++;
+    console.log(b);
+}while(b<10);
