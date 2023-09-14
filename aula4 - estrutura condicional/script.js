@@ -86,3 +86,13 @@ let object = {propriedade1: "valor1", propriedade2: "valor2", propriedade3: "val
 for(let indice = 0; indice < array.length; indice++){
     console.log(indice)
 }
+
+
+//for/in
+for(let i in array){
+    console.log(i)
+}
+//não precisa declarar a variável
+for(i in object){
+    console.log(i)
+}

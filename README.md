@@ -150,6 +150,12 @@ switch(expressão){
 
 ## Repetição
 
-- for([expressaoInicial]; [condição]; [incremento/decremento]){
-    declaração
+- for
+    for([expressaoInicial]; [condição]; [incremento/decremento]){
+        declaração
 }
+
+- for/in
+    for([indece] in [objeto ou array]){
+        declaração
+    }
