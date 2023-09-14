@@ -110,7 +110,7 @@ Desestruturação de um objeto(manipulação de objeto)
 ### **Estrutura condicional - decisão repetição/iteração**
 
 
-Decisão
+## Decisão
 
 - If(){
 
@@ -148,3 +148,8 @@ switch(expressão){
         {instrução};
 }
 
+## Repetição
+
+- for([expressaoInicial]; [condição]; [incremento/decremento]){
+    declaração
+}
