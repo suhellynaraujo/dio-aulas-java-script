@@ -176,3 +176,17 @@ switch(expressão){
         incremento/decremento;
           declaração;
     }while([expressao]);
+
+# **Funções**
+
+- Function  
+
+    function nomeDaFunção(){
+        instrução;
+    } nomeDaFunção();
+
+- Função com parametros
+
+    function nomeDaFunção(parametro){
+        instrução;
+    } nomeDaFunção(valorDoparametro);
