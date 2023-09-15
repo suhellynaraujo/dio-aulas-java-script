@@ -212,3 +212,13 @@ São funções atribuídas a expressões, nomeação é opcional
 var funcao = function nomeDaFuncao(){
 		instrução;
 }
+funcao();
+
+- Arrow Function
+
+Funções de expressão de sintaxe curta, sempre anônimas, não podem ser renomeadas, declaradas da seguinte forma
+
+var funcao = () => {
+    instrução;
+}
+funcao();
