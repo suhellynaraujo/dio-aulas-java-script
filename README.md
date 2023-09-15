@@ -190,3 +190,16 @@ switch(expressão){
     function nomeDaFunção(parametro){
         instrução;
     } nomeDaFunção(valorDoparametro);
+
+# **Aprofundamento em funções**
+
+## Tipos de funções
+
+- Declarativas
+
+Possuem o uso mais comum, devem ser declaradas da seguinte forma
+
+
+function nomeDaFunção(){
+        instrução;
+    } nomeDaFunção();
