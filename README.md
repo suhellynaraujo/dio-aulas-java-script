@@ -203,3 +203,12 @@ Possuem o uso mais comum, devem ser declaradas da seguinte forma
 function nomeDaFunção(){
         instrução;
     } nomeDaFunção();
+
+
+- Expressões
+
+São funções atribuídas a expressões, nomeação é opcional
+
+var funcao = function nomeDaFuncao(){
+		instrução;
+}
