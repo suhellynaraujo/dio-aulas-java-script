@@ -222,3 +222,12 @@ var funcao = () => {
     instrução;
 }
 funcao();
+
+## Funções aritmética
+
+Criando uma calculadora
+
+- Number() ⇒ converte valores em números
+- Prompt() ⇒ registra entradas dos usuários
+- Alert() ⇒ mostra mensagens ao usuário
+- Template Strings ⇒ usa strings junto com expressões
